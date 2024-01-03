@@ -2,9 +2,9 @@ name: Build and Package
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "with-haxi0's-ui" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "with-haxi0's-ui" ]
   workflow_dispatch:
 
 jobs:
