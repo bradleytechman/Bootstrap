@@ -1,7 +1,7 @@
 # Bootstrap
 
 [![GitHub stars](https://img.shields.io/github/stars/RootHide/Bootstrap?style=social)](https://github.com/RootHide/Bootstrap/stargazers)
-[![Build and Package](https://github.com/bradleytechman/Bootstrap-Builds/actions/workflows/6S4AMCy.yml/badge.svg)](https://github.com/bradleytechman/Bootstrap-Builds/actions/workflows/6S4AMCy.yml)
+[![Build and Package](https://github.com/bradleytechman/Bootstrap-Builds/actions/workflows/build%20on%20new%20commit.yml/badge.svg)](https://github.com/bradleytechman/Bootstrap-Builds/actions/workflows/build%20on%20new%20commit.yml)
 
 README.md updated by [dleovl](https://github.com/dleovl) and me (mostly dleovl updated it)
 
