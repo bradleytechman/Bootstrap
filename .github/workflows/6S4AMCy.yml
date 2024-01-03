@@ -38,13 +38,6 @@ jobs:
     needs: build
 
     steps:
-    - name: Delete old release
-      uses: dev-drprasad/delete-tag-and-release@v0.2.1
-      with:
-        delete_release: true
-        tag_name: release
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Get artifacts
       uses: actions/download-artifact@v3
       with:
@@ -52,7 +45,7 @@ jobs:
     - name: Create new release
       uses: ncipollo/release-action@v1
       with:
-        name: Rolling Release
+        name: Build bootstrap.tipa
         body: These are automatically updated builds of the latest commit.
         artifacts: "Bootstrap.tipa"
         tag: release
