@@ -37,7 +37,14 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
 
-    steps:
+  steps:
+    - name: Delete old release
+      uses: dev-drprasad/delete-tag-and-release@v0.2.1
+      with:
+        delete_release: true
+        tag_name: release
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Get artifacts
       uses: actions/download-artifact@v3
       with:
@@ -45,7 +52,7 @@ jobs:
     - name: Create new release
       uses: ncipollo/release-action@v1
       with:
-        name: Build bootstrap.tipa
+        name: Rolling Release
         body: These are automatically updated builds of the latest commit.
         artifacts: "Bootstrap.tipa"
         tag: release
