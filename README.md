@@ -3,6 +3,8 @@
 [![GitHub stars](https://img.shields.io/github/stars/RootHide/Bootstrap?style=social)](https://github.com/RootHide/Bootstrap/stargazers)
 [![Build and Package](https://github.com/bradleytechman/Bootstrap-Builds/actions/workflows/build%20on%20new%20commit.yml/badge.svg)](https://github.com/bradleytechman/Bootstrap-Builds/actions/workflows/build%20on%20new%20commit.yml)
 
+## Archived due to roothide releasing it themselves.
+
 README.md updated by [dleovl](https://github.com/dleovl) and me (mostly dleovl updated it)
 
 A full featured bootstrap for iOS 14.0-17.0 A8-A17 & M1+M2. (Currently only tested tested on versions 15.0-17.0)
